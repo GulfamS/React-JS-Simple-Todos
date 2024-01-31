@@ -1,0 +1,29 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 18px;
+  padding-right: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 32px;
+  }
+}
+
+.button {
+  color: #ff0b37;
+  background-color: #ffffff;
+  border-color: #ff0b37;
+  font-family: Roboto;
+  font-size: 12px;
+  padding: 8px;
+  border-radius: 7px;
+  width: 70px;
+}
